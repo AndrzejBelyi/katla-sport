@@ -13,7 +13,7 @@ namespace KatlaSport.DataAccess.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201806161201249_AddCategoryDescription"; }
+            get { return "201806170735373_AddCategoryDescription"; }
         }
         
         string IMigrationMetadata.Source
