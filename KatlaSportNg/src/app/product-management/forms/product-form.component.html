@@ -3,8 +3,7 @@
   <form (ngSubmit)="onSubmit()" #productEditorForm="ngForm">
     <div class="form-group" *ngIf="existed">
       <label for="idLabel">ID</label>
-      <input type="text" class="form-control" id="id" aria-describedby="idLabel" [(ngModel)]="product.id" name="id" #id="ngModel"
-        readonly>
+      <input type="text" class="form-control" id="id" aria-describedby="idLabel" [(ngModel)]="product.id" name="id" #id="ngModel" readonly>
     </div>
     <div class="form-group">
       <label for="name" id="nameLabel">Product Name</label>
